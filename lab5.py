@@ -25,11 +25,11 @@ if "strawberry" in favorite_fruits:
     
 #3.4
 person_age = 24
-if person_age<10:
-    print("The person is a kid")
-if person_age>65:
-    print("The person is an elder")
-elif person_age<=20:
+if person_age>=20:
+    print("The person is an adult")
+    if person_age>65:
+        print('The person is an elder')
+elif person_age>10:
     print("The person is a teenager")
 else:
-    print("The person is an adult")
+    print("The person is a kid")
