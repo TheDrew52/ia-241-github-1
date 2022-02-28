@@ -11,3 +11,6 @@ this is a regional comment
 #print("Tom's cat")
 #print("Hello " + "World")
 print(2**3)
+print (len(('this is a string').split()))
+
+demo_tuple = {1,2,3}
